@@ -7,14 +7,57 @@
  입력한 이름, 나이, 장르를 기반으로 동화를 자동으로 생성하고, LoRA 기반 Stable Diffusion으로 삽화를 만들며, ElevenLabs API를 통해 입력한 목소리로 동화를 읽어줍니다.
 
 ---
+# 팀 소개
+
+<table>
+  <thead>
+    <tr>
+      <th align="center"><a href="https://github.com/songwonjoon">송원준</a></th>
+      <th align="center"><a href="https://github.com/CcGKIM">김충구</a></th>
+      <th align="center"><a href="https://github.com/kkuriyoon">윤지원</a></th>
+      <th align="center"><a href="https://github.com/1-moon">황한문</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/songwonjoon">
+          <img src="https://github.com/songwonjoon.png" width="120" alt="송원준" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>BE</kbd> <kbd>FE</kbd>
+      </td>
+      <td align="center">
+        <a href="https://github.com/CcGKIM">
+          <img src="https://github.com/CcGKIM.png" width="120" alt="김충구" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>BE</kbd> <kbd>FE</kbd>
+      </td>
+      <td align="center">
+        <a href="https://github.com/kkuriyoon">
+          <img src="https://github.com/kkuriyoon.png" width="120" alt="윤지원" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>BE</kbd>
+      </td>
+      <td align="center">
+        <a href="https://github.com/1-moon">
+          <img src="https://github.com/1-moon.png" width="120" alt="황한문" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>FE</kbd>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
 
 # 프로젝트 메인사진
 
-### 📍 **StoryTeller-Backend**
-
-StoryTeller-Backend는 FastAPI 기반으로 구축된 백엔드 시스템으로, **동화 생성, 품질 평가, 요약, 이미지 생성, 오디오 생성** 등 전체 AI 파이프라인을 관리합니다.
-
-**주요 기능**:
+### 📍 주요 기능
 
 - **동화 생성**: QLoRA Fine-Tuned LLM으로 맞춤형 동화 생성
 - **스토리 평가**: LoRA Fine-Tuned LLM을 통해 품질 자동 평가
@@ -23,29 +66,6 @@ StoryTeller-Backend는 FastAPI 기반으로 구축된 백엔드 시스템으로,
 - **TTS 리딩**: ElevenLabs API로 부모 목소리 기반 오디오 스트리밍
 - **DB 관리**: MySQL에 동화/이미지/오디오/로그 저장 및 이어듣기 지원
 
-**추가 설명**:
-
-- **데이터 관리**: 생성된 동화, 이미지, 오디오를 DB에 저장 및 검색 가능
-- **모델 학습 및 추론**: QLoRA/LoRA를 활용해 모델 최적화 가능
-- **스트리밍**: 오디오 파일을 페이지 단위로 실시간 제공
-
----
-
-### 📍 **StoryTeller-FE**
-
-StoryTeller-FE는 React + TypeScript 기반으로 개발된 프론트엔드로, **사용자 친화적인 동화 생성·시청각 경험**을 제공합니다.
-
-**주요 기능**:
-
-- **동화 생성 UI**: 이름·나이·장르 입력 기반 동화 생성 요청
-- **실시간 시각화**: 생성된 동화, 삽화, 오디오를 직관적으로 확인 가능
-- **API 연동**: ngrok을 통한 백엔드 연결 및 실시간 데이터 반영
-- **데이터 관리**: 사용자별 생성 기록 조회 및 이어듣기 기능 제공
-
-**추가 설명**:
-
-- **반응형 UI**: 다양한 디바이스(모바일/PC)에서 최적화
-- **UX 강화**: 페이지 단위 동화 읽기 및 이어듣기 지원
 
 ---
 
