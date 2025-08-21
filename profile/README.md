@@ -7,6 +7,53 @@
  입력한 이름, 나이, 장르를 기반으로 동화를 자동으로 생성하고, LoRA 기반 Stable Diffusion으로 삽화를 만들며, ElevenLabs API를 통해 입력한 목소리로 동화를 읽어줍니다.
 
 ---
+# 팀 소개
+
+<table>
+  <thead>
+    <tr>
+      <th align="center"><a href="https://github.com/songwonjoon">송원준</a></th>
+      <th align="center"><a href="https://github.com/CcGKIM">김충구</a></th>
+      <th align="center"><a href="https://github.com/kkuriyoon">윤지원</a></th>
+      <th align="center"><a href="https://github.com/1-moon">황한문</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/songwonjoon">
+          <img src="https://github.com/songwonjoon.png" width="120" alt="송원준" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>BE</kbd> <kbd>FE</kbd>
+      </td>
+      <td align="center">
+        <a href="https://github.com/CcGKIM">
+          <img src="https://github.com/CcGKIM.png" width="120" alt="김충구" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>BE</kbd> <kbd>FE</kbd>
+      </td>
+      <td align="center">
+        <a href="https://github.com/kkuriyoon">
+          <img src="https://github.com/kkuriyoon.png" width="120" alt="윤지원" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>BE</kbd>
+      </td>
+      <td align="center">
+        <a href="https://github.com/1-moon">
+          <img src="https://github.com/1-moon.png" width="120" alt="황한문" />
+        </a>
+        <br/>
+        <kbd>AI</kbd> <kbd>FE</kbd>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
 
 # 프로젝트 메인사진
 
